@@ -118,30 +118,50 @@ export default function Example() {
                 >
                   Home
                 </Link>
-                <a
-                  href="#Products"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                <Link
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="Products"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Products
-                </a>
-                <a
-                  href="#AboutUs"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                </Link>
+                <Link
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="AboutUs"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   About Us
-                </a>
-                <a
-                  href="#FAQ"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                </Link>
+                <Link
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="FAQ"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   FAQ
-                </a>
-                <a
-                  href="#Contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                </Link>
+                <Link
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="Contact"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
