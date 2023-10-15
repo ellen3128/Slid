@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ');
-// }
+import slidLogo from '../logo/Slid-logo2.png';
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,7 +12,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#Home" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <img className="h-36 w-auto" src={slidLogo} alt="Slid Logo" />
           </a>
         </div>
         <div className="flex lg:hidden">
