@@ -4,7 +4,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import slidLogo from "../logo/Slid-logo2.png";
 
-export default function Example() {
+export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -36,7 +36,7 @@ export default function Example() {
             offset={-70}
             duration={500}
             to="Home"
-            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
+            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             Home
           </Link>
@@ -46,7 +46,7 @@ export default function Example() {
             offset={-70}
             duration={500}
             to="Products"
-            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
+            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             Products
           </Link>
@@ -56,7 +56,7 @@ export default function Example() {
             offset={-70}
             duration={500}
             to="AboutUs"
-            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
+            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             About Us
           </Link>
@@ -66,7 +66,7 @@ export default function Example() {
             offset={-70}
             duration={500}
             to="FAQ"
-            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
+            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             FAQ
           </Link>
@@ -76,7 +76,7 @@ export default function Example() {
             offset={-70}
             duration={500}
             to="Contact"
-            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
+            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             Contact
           </Link>
@@ -114,7 +114,7 @@ export default function Example() {
                   offset={-70}
                   duration={500}
                   to="Home"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Home
                 </Link>
@@ -125,7 +125,7 @@ export default function Example() {
                   offset={-70}
                   duration={500}
                   to="Products"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Products
                 </Link>
@@ -136,7 +136,7 @@ export default function Example() {
                   offset={-70}
                   duration={500}
                   to="AboutUs"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   About Us
                 </Link>
@@ -147,7 +147,7 @@ export default function Example() {
                   offset={-70}
                   duration={500}
                   to="FAQ"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   FAQ
                 </Link>
@@ -158,7 +158,7 @@ export default function Example() {
                   offset={-70}
                   duration={500}
                   to="Contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Contact
                 </Link>
