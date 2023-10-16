@@ -6,9 +6,22 @@
 }
 
 .coverText {
+  display: flex;
+  align-items: start;
   font: bold 4.5rem/1.2 sans-serif;
-  max-width: 30rem;
+  max-width: 100%;
   margin-left: 5rem;
+  gap: 2rem;
+}
+
+.textContainer {
+  display: block; 
+}
+
+.lid {
+  align-self: center; 
+  width: 30rem;
+  height: 30rem;
 }
 
 .coverText span {
@@ -36,7 +49,6 @@
   color: var(--base);
 }
 
-
 @media (prefers-reduced-motion) {
   .coverText span {
     color: var(--base);
@@ -49,15 +61,11 @@
   }
 }
 
-/* Manually generate for up to 10 children */
 .coverText span:nth-child(1)::before,
 .coverText span:nth-child(1)::after {
   animation-delay: 0.1s;
 }
 
-/* Repeat for 2 through 10, adjusting the delay accordingly */
-
-/* ... */
 
 @keyframes max-width {
   from {
