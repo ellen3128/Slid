@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+:root {
+  --background: #ff9c9e; 
+  --base: #1a1a2e;       
+  --accent: #8a56ac;     
+  --shadow: #e84545; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coverText {
+  font: bold 4.5rem/1.2 sans-serif;
+  max-width: 30rem;
+  margin-left: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.coverText span {
+  color: var(--shadow);
+  display: inline-block;
+  position: relative;
+}
+
+.coverText span::before,
+.coverText span::after {
+  content: attr(data-text);
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+.coverText span::before {
+  animation: max-height 0.8s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both; /* 0.8s instead of 0.4s */
+  color: var(--accent);
+}
+
+.coverText span::after {
+  animation: max-width 1.4s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both; /* 1.4s instead of 0.7s */
+  color: var(--base);
+}
+
+
+@media (prefers-reduced-motion) {
+  .coverText span {
+    color: var(--base);
+  }
+
+  .coverText span::before,
+  .coverText span::after {
+    animation: none;
+    content: "";
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Manually generate for up to 10 children */
+.coverText span:nth-child(1)::before,
+.coverText span:nth-child(1)::after {
+  animation-delay: 0.1s;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Repeat for 2 through 10, adjusting the delay accordingly */
 
-@keyframes App-logo-spin {
+/* ... */
+
+@keyframes max-width {
   from {
-    transform: rotate(0deg);
+    max-width: 0;
   }
   to {
-    transform: rotate(360deg);
+    max-width: 100%;
+  }
+}
+
+@keyframes max-height {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 100%;
   }
 }
