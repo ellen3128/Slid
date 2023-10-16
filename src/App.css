@@ -1,86 +1,25 @@
-:root {
-  --background: #ff9c9e; 
-  --base: #1a1a2e;       
-  --accent: #8a56ac;     
-  --shadow: #e84545; 
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 
 .coverText {
-  display: flex;
-  align-items: start;
-  font: bold 4.5rem/1.2 sans-serif;
-  max-width: 100%;
-  margin-left: 5rem;
-  gap: 2rem;
-}
-
-.textContainer {
-  display: block; 
+margin-left: 3rem;
+font-size: 5rem;
+display: flex;
+line-height: 6rem;
+font-weight: 600;
+animation: fadeInUp 1s forwards;
 }
 
 .lid {
-  align-self: center; 
-  width: 30rem;
-  height: 30rem;
-}
-
-.coverText span {
-  color: var(--shadow);
-  display: inline-block;
-  position: relative;
-}
-
-.coverText span::before,
-.coverText span::after {
-  content: attr(data-text);
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-}
-
-
-.coverText span::before {
-  animation: max-height 0.8s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both; /* 0.8s instead of 0.4s */
-  color: var(--accent);
-}
-
-.coverText span::after {
-  animation: max-width 1.4s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both; /* 1.4s instead of 0.7s */
-  color: var(--base);
-}
-
-@media (prefers-reduced-motion) {
-  .coverText span {
-    color: var(--base);
-  }
-
-  .coverText span::before,
-  .coverText span::after {
-    animation: none;
-    content: "";
-  }
-}
-
-.coverText span:nth-child(1)::before,
-.coverText span:nth-child(1)::after {
-  animation-delay: 0.1s;
-}
-
-
-@keyframes max-width {
-  from {
-    max-width: 0;
-  }
-  to {
-    max-width: 100%;
-  }
-}
-
-@keyframes max-height {
-  from {
-    max-height: 0;
-  }
-  to {
-    max-height: 100%;
-  }
+display: flex;
+width: 40rem;
+height: auto;
 }
