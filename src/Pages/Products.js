@@ -23,14 +23,11 @@ export default function Products() {
           <p data-text="Color and logo">Color & logo</p>
           <br></br>
           <p className="text-center mx-auto w-1/2 text-2xl">
-              We care most about the quality of experience when the users go out
-              to enjoy their hot drink. The cover piece is customizable by color
-              and its logo design on the surface.
-        </p>
+              We care about the quality of experience for both users and brands. Each Slid's piece is fully customizable with the brand's logo and iconic colors. Slid will continue to carry out your brand's marketing!</p>
 
         </div>
         <div className="color-options-wrapper">
-          <h3 className="color-options-title">Color options</h3>
+          <h3 className="color-options-title">Customizable Colors</h3>
           <div className="color-options">
             {colorData.map((item, index) => (
               <div

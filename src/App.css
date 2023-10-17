@@ -37,7 +37,7 @@
 /* products */
 
 .banner--products {
-  background-color: rgb(244, 241, 237);
+  background-color: rgb(242, 242, 234);
   display: flex;
   flex-direction: column;
   align-items: center; /* should center horizontally */
@@ -73,7 +73,7 @@
 }
 
 .color-options-title {
-  font-size: 3.5rem; 
+  font-size: 2.5rem; 
   margin-bottom: 1rem; 
   text-align: center;
 }
