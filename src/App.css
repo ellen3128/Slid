@@ -16,6 +16,7 @@ display: flex;
 line-height: 6rem;
 font-weight: 600;
 animation: fadeInUp 1s forwards;
+margin-bottom: -10rem;
 }
 
 .lid {
@@ -23,3 +24,16 @@ display: flex;
 width: 40rem;
 height: auto;
 }
+
+.buttons-container {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #006241;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  animation: fadeInUp 1s forwards;
+}
+
+
