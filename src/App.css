@@ -73,8 +73,8 @@
 }
 
 .color-options-title {
-  font-size: 2.5rem; 
-  margin-bottom: 1rem; 
+  font-size: 2rem; 
+  margin-bottom: 0.8rem; 
   text-align: center;
 }
 
@@ -109,26 +109,24 @@
 
 /* Keyframes for color change animation */
 @keyframes subtleColorChange {
-  0% {
-      color: #E0BBE4;  /* Pastel Lavender */
+  0%, 100% {
+      color: #B98DB4;  /* Darker Pastel Lavender */
   }
   25% {
-      color: #AECDCD;  /* Pastel Teal */
+      color: #87A8A5;  /* Darker Pastel Teal */
   }
   50% {
-      color: #FFC1A1;  /* Pastel Peach */
+      color: #E39E7B;  /* Darker Pastel Peach */
   }
   75% {
-      color: #EFD9CE;  /* Soft Rose */
-  }
-  100% {
-      color: #E0BBE4;  /* Back to Pastel Lavender */
+      color: #D2B1A3;  /* Darker Soft Rose */
   }
 }
 
 [data-text="Color and logo"] {
   animation: subtleColorChange 8s infinite;
 }
+
 
 
 
