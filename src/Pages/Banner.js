@@ -10,10 +10,20 @@ export default function Banner() {
           <p data-text="Cover your drink,">Cover your drink,</p>
           <p data-text="Spill less,">Spill less,</p>
           <p data-text="Keep warm.">Keep warm.</p>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="Products"
+            className="buttons-container text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3 text-white align-middle"
+          >
+            View Products
+          </Link>
         </div>
         <img className="lid" src={lidGif} alt="Lid GIF"></img>
       </section>
-        <div className="buttons-container">
+        {/* <div className="buttons-container">
         <Link
             spy={true}
             smooth={true}
@@ -24,7 +34,7 @@ export default function Banner() {
           >
             View Products
           </Link>
-      </div>
+      </div> */}
    </div>
   );
 }
