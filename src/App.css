@@ -1,35 +1,28 @@
-@keyframes fadeInUp {
-  from {
-      opacity: 0;
-      transform: translateY(50px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
+
 
 .banner {
+  padding-left: 5rem;
   display: flex;
-  flex-direction: column;  
-  align-items: center;     /* Centers children on the cross axis (horizontally in this case) */
+  flex-direction: column;
+  align-items: center; /* Centers children on the cross axis (horizontally in this case) */
   justify-content: center; /* Centers children on the main axis (vertically in this case) */
   margin: 2rem auto;
 }
 
 .coverText {
-font-size: 5rem;
-display: flex;
-line-height: 6rem;
-font-weight: 600;
-animation: fadeInUp 1s forwards;
+  font-size: 5rem;
+  display: flex;
+  line-height: 6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  animation: fadeInUp 1s forwards;
 }
 
 .lid {
-display: flex;
-width: 40rem;
-height: auto;
-margin: 0 auto;
+  display: flex;
+  width: 40rem;
+  height: auto;
+  margin: 0 auto;
 }
 
 .buttons-container {
@@ -41,4 +34,75 @@ margin: 0 auto;
   animation: fadeInUp 1s forwards;
 }
 
+/* products */
 
+.banner--products {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* should center horizontally */
+  justify-content: center; /* should center vertically */
+  width: 100%;
+  padding: 2rem auto;
+  margin-top: -6rem;
+}
+
+.textContainer--products {
+  max-width: 60%;
+  text-align: center; 
+}
+
+
+.coverText--products {
+  padding: 5rem;
+  font-size: 4.5rem;
+  display: flex;
+  line-height: 4.7rem;
+  font-weight: 600;
+  animation: fadeInUp 1s forwards;
+}
+
+.color-options-wrapper {
+  /* width: 70%; */
+  margin-right: 10rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /* margin: 2rem 0;  */
+}
+
+.color-options-title {
+  font-size: 3.5rem; 
+  margin-bottom: 1rem; 
+  text-align: center;
+}
+
+.color-options {
+  max-width: 70%;
+  max-height: 70%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 1.5rem; 
+  padding: 2rem 0; 
+  text-align: center; 
+  border-top: 2px solid #d6d6d6; 
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  position: relative; 
+  background-size: cover;
+}
+
+.color-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2); 
+}
