@@ -20,7 +20,7 @@ export default function Products() {
         <div className="textContainer--products">
           <p data-text="Choose your">Choose your</p>
           <p data-text="Brand's iconic">Brand's iconic</p>
-          <p data-text="Color and logo">Color and logo</p>
+          <p data-text="Color and logo">Color & logo</p>
           <br></br>
           <p className="text-center mx-auto w-1/2 text-2xl">
               We care most about the quality of experience when the users go out

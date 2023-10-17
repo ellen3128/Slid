@@ -37,7 +37,7 @@
 /* products */
 
 .banner--products {
-  background-color: yellow;
+  background-color: rgb(244, 241, 237);
   display: flex;
   flex-direction: column;
   align-items: center; /* should center horizontally */
@@ -106,3 +106,35 @@
   transform: scale(1.1);
   box-shadow: 0 6px 15px rgba(0,0,0,0.2); 
 }
+
+/* Keyframes for color change animation */
+@keyframes subtleColorChange {
+  0% {
+      color: #E0BBE4;  /* Pastel Lavender */
+  }
+  25% {
+      color: #AECDCD;  /* Pastel Teal */
+  }
+  50% {
+      color: #FFC1A1;  /* Pastel Peach */
+  }
+  75% {
+      color: #EFD9CE;  /* Soft Rose */
+  }
+  100% {
+      color: #E0BBE4;  /* Back to Pastel Lavender */
+  }
+}
+
+[data-text="Color and logo"] {
+  animation: subtleColorChange 8s infinite;
+}
+
+
+
+
+
+
+
+
+
