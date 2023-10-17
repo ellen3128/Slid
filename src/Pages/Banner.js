@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 export default function Banner() {
   return (
-    <div>
+    <div className="banner">
       <section id="Home" className="coverText">
         <div className="textContainer">
           <p data-text="Cover your drink,">Cover your drink,</p>
@@ -13,8 +13,6 @@ export default function Banner() {
         </div>
         <img className="lid" src={lidGif} alt="Lid GIF"></img>
       </section>
-      {/* <div class="buttons-container"> */}
-        {/* <button class="button-arounder">View Products</button> */}
         <div className="buttons-container">
         <Link
             spy={true}
