@@ -50,7 +50,7 @@ export default function Products() {
           <Link to="/customize">
             <button
               type="button"
-              class="text-blue-900 bg-slate-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-6 transform hover:scale-110"
+              class="text-blue-900 bg-slate-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-6 transform hover:scale-110 border-b-4 border-blue-900"
             >
               Build Your Slid
               <svg
