@@ -63,13 +63,11 @@
 }
 
 .color-options-wrapper {
-  /* width: 70%; */
   margin-right: 10rem;
   max-width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center; 
-  /* margin: 2rem 0;  */
 }
 
 .color-options-title {
@@ -110,16 +108,16 @@
 /* Keyframes for color change animation */
 @keyframes subtleColorChange {
   0%, 100% {
-      color: #B98DB4;  /* Darker Pastel Lavender */
+      color: #B98DB4;  
   }
   25% {
-      color: #87A8A5;  /* Darker Pastel Teal */
+      color: #87A8A5;  
   }
   50% {
-      color: #E39E7B;  /* Darker Pastel Peach */
+      color: #E39E7B;  
   }
   75% {
-      color: #D2B1A3;  /* Darker Soft Rose */
+      color: #D2B1A3;  
   }
 }
 
@@ -127,11 +125,7 @@
   animation: subtleColorChange 8s infinite;
 }
 
-
-
-
-
-
+/* AboutUs */
 
 
 

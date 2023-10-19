@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import Banner from "../Banner";
 import Products from "../../Pages/Products";
-import About from "../About";
+import AboutUs from "../AboutUs";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Products />
-      <About />
+      <AboutUs />
     </>
   );
 }
