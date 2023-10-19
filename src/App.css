@@ -127,6 +127,19 @@
 
 /* AboutUs */
 
+.textContainer--about {
+  max-width: 100%;
+  text-align: center; 
+}
 
+
+.coverText--about {
+  padding-top: 5rem;
+  font-size: 4.5rem;
+  display: flex;
+  line-height: 4.7rem;
+  font-weight: 600;
+  animation: fadeInUp 1s forwards;
+}
 
 

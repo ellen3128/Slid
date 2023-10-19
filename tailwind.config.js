@@ -12,6 +12,9 @@ module.exports = {
           "50%": { backgroundPosition: "100% 50%" },
         },
       },
+      textUnderlineOffset: {
+        10: '10px',
+      }
     },
     plugins: [],
   },
