@@ -46,8 +46,8 @@ export default function Products() {
             ))}
             <img src={Piece} alt=""></img>
           </div>
-          <button
-            type="button"
+          <a
+            href="YOUR_LINK_HERE"
             class="text-blue-900 bg-slate-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-6 transform hover:scale-110"
           >
             Build Your Slid
@@ -60,13 +60,13 @@ export default function Products() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </section>
     </div>
