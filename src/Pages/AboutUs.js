@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+ 
 export default function AboutUs() {
   return (
     <>
@@ -16,7 +18,7 @@ export default function AboutUs() {
             Team Slid embarked on a journey, received U.S. Patent for the product and
             moved towards production. <br /><br /> <span>Today, we're thrilled to
             introduce our innovative solution to coffee enthusiasts everywhere.
-            Experience the future of spill-free sipping.</span> <span className="text-blue-900 font-bold underline underline-offset-8">Try Slid!</span>
+            Experience the future of spill-free sipping.</span> <Link to="/customize"><span className="inline-block text-xl text-blue-900 font-bold underline underline-offset-8 text-shadow-text hover:text-blue-800 transition transform hover:scale-105">Try Slid!</span></Link>
           </p>
         </div>
       </section>
