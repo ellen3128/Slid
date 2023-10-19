@@ -9,14 +9,24 @@ export default function Navbar() {
 
   return (
     <header className="bg-white sticky top-0 z-50">
-   <nav className="!py-0 mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8" aria-label="Global">
-
+      <nav
+        className="!py-0 mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8"
+        aria-label="Global"
+      >
         <div className="flex lg:flex-1">
-          <a href="#Home" className="-m-1.5 p-1.5">
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-144}
+            duration={500}
+            to="Home"
+            className="-m-1.5 p-1.5"
+          >
             <span className="sr-only">Your Company</span>
             <img className="h-36 w-auto" src={slidLogo} alt="Slid Logo" />
-          </a>
+          </Link>
         </div>
+
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -31,7 +41,7 @@ export default function Navbar() {
           <Link
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-144}
             duration={500}
             to="Home"
             className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
@@ -88,7 +98,6 @@ export default function Navbar() {
       >
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-3 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-
           <div className="flex items-center justify-between">
             <a href="#Home" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
