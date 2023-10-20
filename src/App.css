@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center; /* Centers children on the cross axis (horizontally in this case) */
   justify-content: center; /* Centers children on the main axis (vertically in this case) */
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .coverText {
@@ -44,7 +44,7 @@
   justify-content: center; /* should center vertically */
   width: 100%;
   padding: 2rem auto;
-  margin-top: -6rem;
+  /* margin-top: -3rem; */
 }
 
 .textContainer--products {
