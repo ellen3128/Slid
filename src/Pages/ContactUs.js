@@ -27,6 +27,7 @@ export default function ContactUs() {
 
   return (
     <form
+      id="Contact"
       ref={form}
       onSubmit={sendEmail}
       className="bg-white p-8 shadow-md rounded-lg max-w-md mx-auto mt-10"
