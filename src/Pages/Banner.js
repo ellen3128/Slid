@@ -12,7 +12,7 @@ export default function Banner() {
           <Link
             spy={true}
             smooth={true}
-            offset={-144}
+            offset={-150}
             duration={500}
             to="Products"
             className="buttons-container text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3 text-white align-middle"

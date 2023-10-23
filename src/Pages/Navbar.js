@@ -51,7 +51,7 @@ export default function Navbar() {
           <Link
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-150}
             duration={500}
             to="Products"
             className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
@@ -130,7 +130,7 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-150}
                   duration={500}
                   to="Products"
                   className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
