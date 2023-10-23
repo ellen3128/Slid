@@ -1,4 +1,17 @@
+@font-face {
+  font-family: "Helmet";
+  src: url("/src/font/Helmet-Regular.ttf") format("opentype");
+}
 
+@font-face {
+  font-family: "Prosto";
+  src: url("/src/font/Prosto.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gilgan";
+  src: url("/src/font/Gilgan.otf") format("opentype");
+}
 
 .banner {
   padding-left: 5rem;
@@ -10,7 +23,8 @@
 }
 
 .coverText {
-  font-size: 5rem;
+  font-family: 'Helmet', sans-serif;
+  font-size: 6rem;
   display: flex;
   line-height: 6rem;
   font-weight: 600;
@@ -57,7 +71,7 @@
 
 .coverText--products {
   padding: 5rem;
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   display: flex;
   line-height: 4.7rem;
   font-weight: 600;

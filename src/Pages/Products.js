@@ -23,7 +23,7 @@ export default function Products() {
           <p data-text="Brand's iconic">Brand's iconic</p>
           <p data-text="Color and logo">Color & logo</p>
           <br></br>
-          <p className="text-center mx-auto w-1/2 text-xl">
+          <p className="text-center mx-auto w-2/3 text-xl">
             We care about the quality of experience for both users and brands.
             Each Slid's piece is fully customizable with the brand's logo and
             iconic colors. Slid will continue to carry out your brand's

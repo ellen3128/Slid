@@ -15,7 +15,7 @@ export default function Banner() {
             offset={-150}
             duration={500}
             to="Products"
-            className="buttons-container text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3 text-white align-middle"
+            className="buttons-container text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3 text-white align-middle font-sans ui-sans-serif"
           >
             View Products
           </Link>
