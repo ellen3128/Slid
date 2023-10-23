@@ -6,7 +6,7 @@ export default function AboutUs() {
       <section id="AboutUs" className="coverText--about">
         <div className="textContainer--about">
           <p data-text="About Us">About Us</p>
-          <p className="text-center mx-auto w-1/2 text-base pt-8">
+          <p className="text-center mx-auto w-1/2 text-base pt-8 mt-0">
             In 2015, during my college years, I found myself navigating campus
             much like everyone else – on foot. As an avid coffee lover, I often
             found myself facing a common issue: spillage. Whether I was briskly
