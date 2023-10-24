@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function ContactUs() {
   const form = useRef();
+  const [messageStatus, setMessageStatus] = useState(null); 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,7 +13,7 @@ export default function ContactUs() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
+          setMessageStatus("Message sent!");
         },
         (error) => {
           console.log(error.text);
@@ -31,6 +32,10 @@ export default function ContactUs() {
         <br /> Slid team will get back to you as soon as possible!
         </p>
       </div>
+      <>
+      {messageStatus ? (
+        <div className="text-center mt-4 text-green-500">{messageStatus}</div>
+      ) : null} 
       <form
         id="Contact"
         ref={form}
@@ -84,6 +89,8 @@ export default function ContactUs() {
           className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-md"
         />
       </form>
+      </>
     </section>
+      
   );
 }
