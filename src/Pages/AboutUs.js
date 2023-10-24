@@ -7,16 +7,9 @@ export default function AboutUs() {
         <div className="textContainer--about">
           <p data-text="About Us">About Us</p>
           <p className="text-center mx-auto w-1/2 text-base pt-8 mt-0">
-            In 2015, during my college years, I found myself navigating campus
-            much like everyone else – on foot. As an avid coffee lover, I often
-            found myself facing a common issue: spillage. Whether I was briskly
-            walking to classes or later driving around after purchasing a car,
-            the coffee seemed to find its way out. Splash sticks were a
-            temporary solution but quickly became messy. <br />
+            As an avid coffee lover, we often face a common issue: spillage. Drinks always seem to find its way out, and splash sticks are only a temporary solution. <br />
             <br /> 
-            What if a sliding piece could seamlessly cover the sip hole? Driven by this idea,
-            Team Slid embarked on a journey, received U.S. Patent for the product and
-            moved towards production. <br /><br /> <span>Today, we're thrilled to
+            Driven by the idea of having a sliding piece that could seamlessly cover the sip hole, Team Slid embarked on a journey back in 2015, became fully patented in the U.S., to get into production. <br /><br /> <span>Today, we're thrilled to
             introduce our innovative solution to coffee enthusiasts everywhere.
             Experience the future of spill-free sipping.</span> <Link to="/customize"><span className="inline-block text-xl text-blue-900 font-bold underline underline-offset-8 text-shadow-text hover:text-blue-800 transition transform hover:scale-105">Try Slid!</span></Link>
           </p>
