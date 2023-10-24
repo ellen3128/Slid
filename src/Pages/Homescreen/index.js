@@ -4,6 +4,7 @@ import Products from "../../Pages/Products";
 import AboutUs from "../AboutUs";
 import Faq from "../Faq";
 import ContactUs from "../ContactUs";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutUs />
       <Faq />
       <ContactUs />
+      <Footer />
     </>
   );
 }

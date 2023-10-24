@@ -21,7 +21,7 @@ export default function ContactUs() {
   };
 
   return (
-    <section>
+    <section className="py-20">
       <div className="container flex flex-col justify-center items-center px-4 py-8 mx-auto md:p-8">
         <h2 className="text-2xl font-semibold text-center sm:text-4xl">
           Contact Us!
