@@ -44,7 +44,7 @@ export default function Navbar() {
             offset={-144}
             duration={500}
             to="Home"
-            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
+            className="text-xl font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             Home
           </Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
             offset={-150}
             duration={500}
             to="Products"
-            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
+            className="text-xl font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             Products
           </Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
             offset={-70}
             duration={500}
             to="AboutUs"
-            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
+            className="text-xl font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             About Us
           </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
             offset={-70}
             duration={500}
             to="FAQ"
-            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
+            className="text-xl font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             FAQ
           </Link>
@@ -84,7 +84,7 @@ export default function Navbar() {
             offset={-70}
             duration={500}
             to="Contact"
-            className="text-lg font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
+            className="text-xl font-semibold leading-8 text-gray-900 cursor-pointer px-4 py-3"
           >
             Contact
           </Link>
@@ -122,7 +122,7 @@ export default function Navbar() {
                   offset={-70}
                   duration={500}
                   to="Home"
-                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-xl font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Home
                 </Link>
@@ -133,7 +133,7 @@ export default function Navbar() {
                   offset={-150}
                   duration={500}
                   to="Products"
-                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-xl font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Products
                 </Link>
@@ -144,7 +144,7 @@ export default function Navbar() {
                   offset={-70}
                   duration={500}
                   to="AboutUs"
-                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-xl font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   About Us
                 </Link>
@@ -155,7 +155,7 @@ export default function Navbar() {
                   offset={-70}
                   duration={500}
                   to="FAQ"
-                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-xl font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   FAQ
                 </Link>
@@ -166,7 +166,7 @@ export default function Navbar() {
                   offset={-70}
                   duration={500}
                   to="Contact"
-                  className="-mx-3 block rounded-lg px-4 py-3 text-lg font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  className="-mx-3 block rounded-lg px-4 py-3 text-xl font-semibold leading-8 text-gray-900 hover:bg-gray-50 cursor-pointer"
                 >
                   Contact
                 </Link>
